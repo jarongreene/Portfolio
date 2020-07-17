@@ -1,0 +1,306 @@
+/*CSS Reset */
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Utlility Class */
+.container {
+    margin: auto;
+    max-width: 1100px;
+    overflow: auto;
+    padding: 0 20px;
+}
+.text-primary{
+    color: #f7c08f;
+}
+
+.lead{
+    font-size: 20px;
+}
+
+.btn{
+    display: inline-block;
+    font-size: 18px;
+    color: #fff;
+    background: #333;
+    padding: 13px 20px;
+    border: none;
+    cursor: pointer;
+    padding-bottom: 6px;
+}
+
+.btn:hover{
+    background: #f7c08f;
+    color: #333
+}
+
+.btn-light{
+    background: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark{
+    background: #333;
+    color: #fff;
+}
+
+.bg-primary {
+    background: #f7c08a;
+}
+
+.clr{
+    clear: both;
+}
+
+
+.l-heading{
+    font-size: 40px;
+}
+/* Padding */
+/* p stands for padding. y stands for y axis top & bottom */
+.py-1{padding-top: 10px 0;}
+.py-2{padding-top: 20px 0;}
+.py-3{padding-top: 30px 0;}
+
+/* Main Styling*/
+html, body{
+    font-family: 'Segoe UI', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.7em;
+}
+
+a { 
+    color: #333;
+    text-decoration: none;
+}
+
+#navbar {
+    background: #333;
+    color: #fff;
+    overflow: auto;
+}
+
+#navbar a {
+    color: #fff;
+}
+
+#navbar h1{
+    float: left;
+    padding-top: 20px;
+}
+
+#nav ul{
+    float: right;
+}
+
+#navbar ul li{
+    list-style-type: none;
+float: right;
+}
+
+#navbar ul li a{
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+
+/* Creating a nav barv with hover and to show current location where youre at on the website */
+#navbar ul li a:hover,
+#navbar ul li a.current{
+    background: #444;
+    color: #f7c08f;
+}
+
+/* Showcase */
+#showcase{
+    background: url('../img/showcase.jpg') no-repeat center center/cover;
+    /* to access a file thru css do "../" */
+    height: 600px;
+}
+
+#showcase .showcase-content{
+    color: #fff;
+    text-align: center;
+    padding-top: 170px;
+
+}
+
+#showcase .showcase-content h1 {
+
+    font-size: 60px;
+    line-height: 1.2em;
+}
+
+#showcase .showcase-content p {
+    padding-bottom: 20px;
+    line-height: 1.7em;
+}
+
+
+
+
+
+
+
+/* Home Info */
+#home-info{
+    height: 400px;
+}
+
+#home-info .info-img {
+    float: left;
+    width: 50%;
+    background: url('../img/photo-1.jpg') no-repeat;
+    min-height: 100%;
+}
+
+#home-info .info-content{
+    float: right;
+    width:50%;
+    height: 100%;
+    padding:50px 30px;
+    overflow: hidden;
+    text-align: center;
+}
+#home-info .info-content p{
+    padding-bottom: 30px;
+}
+
+/* features */
+.box{
+    float:left;
+    width: 33.33%;
+    padding: 50px;
+    text-align: center;
+}
+
+
+/* footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: #fff;
+    padding: 20px;
+}
+
+
+/* About Page CSS */
+
+#about-hero{
+    background: url('../img/eiji-k-eunirCQ_WXk-unsplash.jpg') no-repeat center center/cover;
+    /* to access a file thru css do "../" */
+    height: 600px;
+    padding-top: 18%;
+}
+
+#about-ron{ 
+    color: #f4f4f4;
+    font-size: 60px;
+    text-align: center;
+    border: #f4f4f4 solid 3.5px;
+    padding: 20px;
+    width: 600px;
+    margin: auto;
+    font-family: 'Lexend Tera', sans-serif;;
+}
+
+#transbox {
+    margin: 30px;
+    background-color: #ffffff;
+    border: 5px solid black;
+    opacity: 0.6
+}
+
+.about-headers{
+    font-size: 50px;
+    padding-top: 10px;
+    text-align: center;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+
+.about-us{
+    font-size: 30px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    text-align: center;
+    }
+
+    #block {
+        display: inline-block;
+        margin-bottom: 30px;
+    }
+    
+    .img-about{
+        
+        width: 320px;
+        height: 300px;
+        margin: 20px 70px 20px 70px;
+        align-content: center;
+        
+    }
+
+    #img-manager{
+        width: 320px;
+       height: 300px;
+       margin: auto;
+       align-content: center;
+       }
+
+   .img-gallery{
+       width: 320px;
+       height: 300px;
+       margin: 20px 70px 20px 70px;
+       align-content: center;
+       
+   }
+   #employees-img{
+       display: flex;
+
+   }
+    .employees-img img{
+   flex-direction: row;
+    }
+   .first-word{
+    color: #f7c08f;
+    }
+
+    .staff-name{
+        padding-left: 8px;
+        padding-top: 6px;
+        text-align: center;
+    }
+
+    .staff-text{
+        padding-left: 10px;
+        padding-top: 6px;
+    }
+
+
+    /* contact form */
+    #contact-form .form-group{
+        margin-bottom: 10px;
+ }
+
+    #contact-form label{
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    #contact-form input,
+    #contact-form textarea{
+        width: 100%;
+        padding: 10px;
+        border: 1px #ddd solid;
+    }
+
+    #contact-form textarea{
+        height: 200px;
+    }
+
+    #contact-form input:focus,
+    #contact-form textarea:focus{
+        outline: none;
+        border-color: #f7c08f;
+    }
