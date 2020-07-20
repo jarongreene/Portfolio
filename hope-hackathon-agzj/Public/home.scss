@@ -1,0 +1,196 @@
+$purple:#4A5CF0;
+$blue: #4DC8F6;
+$blue2:#47AAEF;
+$gradient:linear-gradient(to bottom right,$blue2 ,$purple);
+$icons: white;
+
+
+body, html{
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+}
+
+.hero{
+    height:675px;
+    background-color:$purple;
+    
+}
+.hero-image{
+    height:100%;
+    width:100vw;
+    opacity:0.5;
+    position:relative;
+}
+
+
+  .container {
+    margin: 40px;
+    text-align:center; 
+}
+
+.homeTextContainer{
+    display:flex;
+    justify-content: center;
+    font-size: 32px;
+    margin-top:0;
+    color:white;
+    text-align: center;
+    background: linear-gradient(to right,$blue2 ,$purple);
+   
+
+
+
+    .homeText {
+        width: 900px;
+    }
+
+
+    .logo{
+        margin-top:25px;
+        height:100px;
+        width:100px;
+        background-color: white;
+        border-radius: 50%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        font-size:24px;
+        color:black;
+    }
+}
+
+
+.whatWeOffer {
+    margin-top:60px;
+    width:100%;
+    display:grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 15px;
+    font-size:24px;
+}
+
+.training{
+    border-radius:30px;
+    color:white;
+    background-image:$gradient;
+}
+
+.networking{
+    border-radius:30px;
+    color: white;
+    background-image:$gradient;
+}
+
+.resources{
+    border-radius:30px;
+    color:white;
+    background-image:$gradient;
+}
+
+.offerText {
+    font-size:18px;
+}
+
+
+.applyNow{
+    font-size:48px;
+}
+
+
+
+.application{
+    border-radius:30px;
+    font-size:18px;
+
+    .appGrid{
+        display:grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .formInfo{
+        width:500px;
+        height:50px;
+        font-size:14px;
+    }
+
+    .subBTN{
+        text-align:center;
+        margin-top:50px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+    }
+ 
+.btn {
+    color:black;
+    background-color: lightblue;
+    height: 50px;
+    width: 100px;
+}   
+    .submit{
+        color:white;
+        font-size: 30px;
+        height:80px;
+        width:200px;
+        border-radius: 30px;
+        background-color:$blue2;
+    }
+    
+    .submit:hover{
+        background-color: $purple;
+    }
+    
+    input{
+        border-color:$purple;
+        border-width: 2px;
+        border-radius:30px;
+    }
+    
+    select{
+        width:300px;
+        height:50px;
+        font-size:14px;
+    }
+    
+    .englishLevel{
+        margin-top:50px;
+    }
+
+}
+
+
+
+
+footer{
+    background-color:#4A5CF0;
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .footer_icons {
+        font-size: 100px;
+        text-decoration: none;
+        margin-right: 40px;
+        margin-top:60px;
+    }
+    
+    .fa{
+        text-decoration: none;
+    }
+    .fa-twitter{
+        color:white;
+    }
+    
+    .fa-facebook{
+        color:white;
+    }
+    
+    .fa-instagram{
+        color:white;
+    }
+}

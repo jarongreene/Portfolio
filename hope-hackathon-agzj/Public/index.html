@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./home.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Home</title>
+</head>
+<body>
+
+    <section class="container">
+        <section class="homeTextContainer">
+            <p class="homeText"> Are you looking for help with your U.S. job search? (Our group name) provides top-quality job
+                search
+                training and support to 1,000+ new Americans each year through our free job search program.
+            </p>
+        </section>
+        <section class="whatWeOffer">
+            <section class="training">
+                <h2>Professional Training</h2>
+                <p>
+                    Our online courses will teach you to craft a U.S.-style resume, network, market yourself to
+                    employers, and interview with confidence
+                </p>
+            </section>
+            <section class="networking">
+                <h2>Networking</h2>
+                <p>
+                    Connect to our national network of volunteers, employers, and peers in your field
+                </p>
+            </section>
+            <section class="training">
+                <h2>Resources</h2>
+                <p>
+                    Access hundreds of additional online trainings and tools, including industry-specific licensing
+                    guides
+                </p>
+            </section>
+        </section>
+        <form class="application">
+            <section>
+                <section>
+                    <h2>Personal Information</h2>
+                </section>
+                <article>
+                    <p><label for="firstName">First Name</label></p>
+                    <p><input type="text" id="firstName" class="formInfo"></p>
+                </article>
+                <article>
+                    <p><label for="lastName">Last Name</label></p>
+                    <p><input type="text" id="lastName" class="formInfo"></p>
+                </article>
+                <article>
+                    <p><label for="phoneNumber">Phone Number</label></p>
+                    <p><input type="text" id="phoneNumber" class="formInfo"></p>
+                </article>
+                <article>
+                    <p><label for="address">Street Address</label></p>
+                    <p><input type="text" id="address" class="formInfo"></p>
+                </article>
+                <article>
+                    <p><label for="city">City</label></p>
+                    <p><input type="text" id="city" class="formInfo"></p>
+                    <p><label for="state">State</label></p>
+                    <p><input type="text" id="state" class="formInfo"></p>
+                    <p><label for="zip">Zip</label></p>
+                    <p><input type="text" id="zip" class="formInfo"></p>
+                </article>
+            </section>
+            <section class="generalInfo">
+                <h2>General Information</h2>
+                <article>
+                    <p><label for="birthPlace">What city were you born in?</label></p>
+                    <p><input type="text" id="birthPlace" class="formInfo"></p>
+                </article>
+                <article>
+                    <p><label for="birthDate">Date of Birth</label></p>
+                    <p><input type="text" id="birthDate" class="formInfo"></p>
+                </article>
+                <article>
+                    <p><label for="gender">Gender</label></p>
+                    <p><input type="text" id="gender" class="formInfo"></p>
+                </article>
+                <article>
+                    <h3>How would you rank your English Level?</h3>
+                    <label for="englishLevel">Low</label>
+                    <input type="radio" id="low" class="englishLevel" value="low">
+                    <label for="englishLevel">Intermediate</label>
+                    <input type="radio" id="intermediate" class="englishLevel" value="intermediate">
+                    <label for="englishLevel">High</label>
+                    <input type="radio" id="high" class="englishLevel" value="high">
+                    
+            </section>
+          
+            <div class="subBTN">
+                <button class="btn" onclick="execute()">Search</button>
+            </div>
+        
+        </form>
+    </section>
+    </section>
+    <footer>
+        <div class="footer_icons">
+            <a href="https://wwww.twitter.com" class="fa fa-twitter"></a>
+            <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+            <a href="https://www.instagram.com" class="fa fa-instagram"></a>
+        </div>
+        <form>
+            <h2 class="signUp">Sign up for email updates</h2>
+            <article>
+                <p><label for="firstName" class="firstName">First Name</label></p>
+                <p><input type="text" id="firstName" class="firstName"></p>
+            </article>
+            <article>
+                <p><label for="lastName" class="lastName">Last Name</label></p>
+                <p><input type="text" id="lastName"></p>
+            </article>
+            <article>
+                <p><label for="email" class="email">email</label></p>
+                <p><input type="text" id="email"></p>
+            </article>
+            <button class="btn" pe="button" class="submit">Submit</button>
+
+        </form>
+    </footer>
+</body>
+</html>

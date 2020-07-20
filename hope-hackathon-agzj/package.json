@@ -1,0 +1,29 @@
+{
+  "name": "hackathon",
+  "version": "1.0.0",
+  "description": "hope hackathon",
+  "main": "server.js",
+  "dependencies": {
+    "body": "^5.1.0",
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.3",
+    "parser": "^0.1.4",
+    "request": "^2.88.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlejandroEscamilla/hope-hackathon-agzj.git"
+  },
+  "author": "Gus Ortiz, Zell Myles, Alejandro Ordaz, Ja'Ron Greene",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlejandroEscamilla/hope-hackathon-agzj/issues"
+  },
+  "homepage": "https://github.com/AlejandroEscamilla/hope-hackathon-agzj#readme"
+}
